@@ -67,6 +67,13 @@ hr.small {
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .main-content {    
+    min-width: 1170px;
+    padding-top: 130px;
+  }
+}
+
 .main-explain-area {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 15px inherit;
