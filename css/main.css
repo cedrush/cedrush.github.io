@@ -56,13 +56,11 @@ hr.small {
 
 
 .main-content {
-  padding-top: 80px;
-  width: 1100px;
+  padding-top: 80px;  
   background-color: #FFFFFF;
 }
 @media only screen and (min-width: 768px) {
-  .main-content {
-    width: 1100px;
+  .main-content {    
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
     padding-top: 130px;
