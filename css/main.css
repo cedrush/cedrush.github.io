@@ -5,14 +5,6 @@ layout: null
 @import url("pygment_highlights.css");
 
 /* --- General --- */
-/*
-#wrapper {
-    padding: 30px;  
-    width: 1170px;
-    background-color: #000000;
-    overflow-x: scroll; /* @@iolo for very long title/tags */
-}
-*/
 
 
 body {
@@ -20,7 +12,7 @@ body {
   font-size: 18px;
   color: #404040;
   position: relative;
-  background-color: #f4f4f4;
+  background-color: {{ site.background-color }};
   {% if site.page-img %}
   background-image: url({{ site.page-img }});
   background-attachment: fixed;
