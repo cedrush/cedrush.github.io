@@ -5,13 +5,14 @@ layout: null
 @import url("pygment_highlights.css");
 
 /* --- General --- */
-
+/*
 #wrapper {
     padding: 30px;  
     width: 1170px;
     background-color: #000000;
     overflow-x: scroll; /* @@iolo for very long title/tags */
 }
+*/
 
 
 body {
