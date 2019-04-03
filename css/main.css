@@ -8,7 +8,8 @@ layout: null
 
 #wrapper {
     padding: 30px;  
-    background-color: #FFFFFF;
+    width: 1170px;
+    background-color: #000000;
     overflow-x: scroll; /* @@iolo for very long title/tags */
 }
 
@@ -56,8 +57,8 @@ hr.small {
 
 
 .main-content {
-  padding-top: 200px;  
-  background-color: #000;
+  padding-top: 80px;  
+  background-color: #FFFFFF;
 }
 @media only screen and (min-width: 768px) {
   .main-content {    
@@ -67,12 +68,6 @@ hr.small {
   }
 }
 
-@media only screen and (min-width: 1200px) {
-  .main-content {    
-    min-width: 1170px;
-    padding-top: 130px;
-  }
-}
 
 .main-explain-area {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
