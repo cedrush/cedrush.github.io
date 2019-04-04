@@ -22,7 +22,7 @@ description: WHITE.TREE TEC BLOG.
 
 # List of links in the navigation bar
 navbar-links:
-  Home : "Home"
+  Home : "/"
   About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
