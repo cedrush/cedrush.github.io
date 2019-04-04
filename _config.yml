@@ -4,26 +4,26 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://cedrush.github.io"
+url: "https://username.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-#url: "http://cedrush.github.io/projectname"
+#url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: WHITE.TREE
+title: My website
 
 # Short description of your site
-description: WHITE.TREE TEC BLOG
+description: A virtual proof that name is awesome!
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "About me"
+  About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
@@ -42,10 +42,10 @@ avatar: "/img/avatar-icon.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#000000"
-navbar-text-col: "#ffffff"
-navbar-children-col: "#000000"
-page-col: "#e4e4e4"
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#F5F5F5"
@@ -72,15 +72,15 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "cedrusblack@gmail.com"
-  facebook: 
-  github: cedrush
-  twitter: 
+  email: "someone@example.com"
+  facebook: daattali
+  github: daattali
+  twitter: daattali
 #  reddit: yourname
 #  google-plus: +DeanAttali
-#  linkedin: 
+#  linkedin: daattali
 #  xing: yourname
-#  stackoverflow: "3943160/"
+#  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
@@ -99,7 +99,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "cedrush.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 

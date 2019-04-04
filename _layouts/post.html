@@ -4,9 +4,9 @@ layout: base
 
 {% include header.html type="post" %}
 
-<div class="container" style="background-color:#FFFFFF;">
+<div class="container">
   <div class="row">
-    <div class="test">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
       {% if page.gh-repo %}
         {% assign gh_split =  page.gh-repo | split:'/'  %}
@@ -32,9 +32,7 @@ layout: base
       {% endif %}
 
       <article role="main" class="blog-post">
-        <div id="wrapper">
-          {{ content }}
-        </div>
+        {{ content }}
       </article>
 
       {% if page.tags.size > 0 %}
@@ -82,4 +80,3 @@ layout: base
     </div>
   </div>
 </div>
-
